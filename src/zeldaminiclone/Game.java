@@ -39,7 +39,8 @@ public class Game extends Canvas implements Runnable, KeyListener {
 		
 		Graphics g = bs.getDrawGraphics();
 		
-		g.setColor(Color.black);
+		//g.setColor(Color.green);
+		g.drawImage(Spritesheet.ground, 0, 0,60,60,null);
 		g.fillRect(0,0, WIDTH, HEIGHT);
 		
 		player.render(g);

@@ -9,6 +9,8 @@ public class Spritesheet {
 
 	public static BufferedImage spritesheet;
 	public static BufferedImage player_front;
+	public static BufferedImage tileWall;
+	public static BufferedImage ground;
 	
 	public Spritesheet() {
 		try {
@@ -19,6 +21,8 @@ public class Spritesheet {
 		}
 		
 		player_front = Spritesheet.getSprite(0, 11, 16, 16);
+		tileWall = Spritesheet.getSprite(280, 208, 16, 16);
+		ground = Spritesheet.getSprite(308, 210, 16, 16);
 	}
 	
 	
