@@ -32,6 +32,13 @@ public class World {
 			blocos.add(new Blocks(640-32,yy*32 ));
 		}
 		
+		blocos.add(new Blocks(80,32));
+		
+		blocos.add(new Blocks(200,102));
+		blocos.add(new Blocks(235,102));
+		
+		blocos.add(new Blocks(300,102));
+		blocos.add(new Blocks(335,102));
 		
 	}
 	
